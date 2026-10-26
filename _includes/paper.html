@@ -1,0 +1,11 @@
+<div class="paper-entry">
+    <div class="research-title">
+        <em>{% if include.external_link %}<a href="{{ include.external_link }}">{% endif %}{{ include.title }}{% if include.external_link %}</a>{% endif %}</em>
+        {% if include.authors %}, {{ include.authors }}{% endif %}
+        {% if include.year %}, {{ include.year }}{% endif %}
+    </div>
+    <div class="research-desc">{{ include.description }}</div>
+    {% if include.notes %}
+    <div class="research-notes"><small>{{ include.notes }}</small></div>
+    {% endif %}
+</div>
