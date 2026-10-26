@@ -134,14 +134,3 @@ I hope to pursue graduate studies, namely joint JD/PhD programs, and continue my
 <p>I am a Guest Services Volunteer and Web manager at the Houston Museum of African American Culture (HMAAC), which opened in 2010. I am also a member of Harvard Club of Houston School Outreach Program, where I travel to local high schools to discuss college admissions and affordability.</p>
 
 <p>While at Harvard, I was General Manger of Harvard Radio Broadcasting, the largest student-run commercial radio station in the Northeastern United States. I have a deep passion for music and the arts and was also President of Harvard Black Community and Student Theater and a member of the Signet Society. I love Stevie Wonder, Parliament Funkadelic, and D'Angelo and they have, in part, inspired me to create Black futures as expansive and imaginative as their music. I also like to take photos and ride my bicyle along the nearest body of water.<p>
-
-<hr>
-
-
-<h3><a name="contact">Contact Information</a></h3>
-
-
-
-<address>Gabriel Brock</address>
-<address>Houston, TX</address>
-<address>{{ site.email }}</address>
