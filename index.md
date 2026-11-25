@@ -11,7 +11,7 @@ title: Gabriel Brock
 {% include social-icons.html %}
 
 <p>
-I am a political researcher based in Houston, Texas. I earned my Joint Bachelor’s degree in Government and African-American Studies from Harvard University in 2026, graduating cum laude with a minor in Computer Science and a Data Science research citation. I currently work as a data scientist and field director for a political strategy firm organizing campaigns and conducting economic development and public opinion research. 
+I am a political researcher based in Houston, Texas. I earned my Joint Bachelor’s degree in Government and African-American Studies from Harvard University in 2026, graduating cum laude with a minor in Computer Science and a Data Science research citation. I currently work as a data scientist and field director for a political strategy firm, where I organize local and state-wide campaigns and conduct economic development and public opinion research.
 </p>
 <p>
 I use data to solve public policy and legal problems, bringing a computational perspective to a diverse range of contemporary social issues. I’ve always been fascinated by the intersection of race and society and have used data to understand our modern political and cultural systems, including policing, surveillance technologies, social media, and education.
@@ -31,14 +31,73 @@ I hope to pursue graduate studies, namely joint JD/PhD programs, and continue my
 <h3>Research</h3>
 <summary>Selection of my academic research; published work, curricular projects, and conference papers.</summary>
 
-{% include paper.html title="Did Floyd Fix It?: Statistical Analysis of Racial Disparities in New York City's Stop-and-Frisk Program" year="2026" description="Senior Thesis (Highest Honors). Advised by Francesca Arruda de Amaral. Completed a one-hundred-page thesis including in-depth study of policing case law and econometric analysis of racial disparities in dataset of over 1.3 million unique stop records." %}
-{% include paper.html title="The Role of School Quality on Upward Mobility in Houston, TX" year="2026" description="Applied multivariate regression to assess whether access to higher-performing schools predicts upward mobility for low-income students, cleaning and analyzing state accountability data, Census records, and outcome data from the Opportunity Atlas." %}
-{% include paper.html title="Urban Development and Voting Patterns in Harris County, TX" year="2026" description="Examined the relationship between residential development, neighborhood change, and electoral outcomes in Harris County using precinct-level voting data and ACS census-tract estimates, identifying how urban growth patterns correlate with shifts in civic participation. Used geospatial analysis and developed original cross-walking method to transpose tract-level estimates to voter precinct-level." %}
-{% include paper.html title="Majority-Black Congressional Districts and Efficacy of Black Representation: A Text Analysis" year="2024" external_link="https://drive.google.com/file/d/1FRGAClmENsQ9tMz6k6RQikp9cUNnROhk/view" description="Analyzed vote records and text analysis from Congressional district descriptions to identify majority-Black districts and examined voting records to assess representation efficacy." %}
-{% include paper.html title="Impact of Urban Development on Charter School Admissions Equity in St. Louis, MO" year="2024" description="Supervised by Dr. Katherine Merseth. Studied how urban development and gentrification affects charter school admissions for students in St. Louis by combining residential activity data from the Census with school enrollment records. Research informed policy recommendations on how to combat displacement of low-income students from city school district. Presented at the 2023 Harvard Business School Social Enterprise Conference." %}
-{% include paper.html title="The Role of Place on Police Shootings" year="2024" external_link="https://github.com/gabebrock/police-shootings" description="Investigated the relationship between police residence and fatal police shootings using a data science approach. It aims to discern patterns, trends, and potential biases associated with geographical proximity of police officers to the communities they police from 2015 to 2023." %}
-{% include paper.html title="Watching the Watchers: A Crowdsourced Approach to Protecting the Right to Assemble in the Age of Digital Surveillance" year="2023" external_link="https://docs.google.com/document/d/1jGEaQVomCSm4CTSbZEWjPBOlzn2gCMaW/edit" description="Developed a crowdsourced platform to monitor and document facial recognition NYPD surveillance of peaceful protests." %}
-{% include paper.html title="Can AI Pass for News?: Human Inability to Classify AI Images and Media Misinformation" year="2023" external_link="https://drive.google.com/file/d/1OKgEvG1mWZkliathC43K4bFzR0mWXeec/view" description="Conducted an experiment testing the capability of natural language programs (NLPs) to generate images for social media-focused news content. We then measured how well humans classify images in simulated interaction." %}
+
+{%
+  include paper.html
+  title="Measuring Longitudinal Racial Disparities in Stop-and-Frisk Policing"
+  year="2026"
+  description="Developed novel empirical methods for measuring racial disparities in stop-and-frisk policing across space-time. Presented at the 2026 Annual Harvard AAAS Spring Research Symposium."
+%}
+
+{%
+  include paper.html
+  title="Spatial Autocorrelation of Racialized Voting Patterns in Harris County, TX."
+  year="2026"
+  description="Precinct-level study of how racial composition and support for James Talarico clustered across Harris County in the 2026 Texas Democratic U.S. Senate primary."
+%}
+
+{% include paper.html
+    title="Did Floyd Fix It?: The Effect of Structural Reform Litigation on Racial Disparities in New York City's Stop-and-Frisk Program"
+    year="2026"
+    external_link="https://github.com/gabebrock/thesis"
+    description="Senior Thesis (Highest Honors). Advised by Francesca Arruda de Amaral. Completed a one-hundred-page thesis including in-depth study of policing case law and econometric analysis of racial disparities in dataset of over 1.3 million unique stop records."
+%}
+
+{% include paper.html
+    title="The Role of School Quality on Upward Mobility in Houston, TX"
+    year="2026"
+    description="Applied multivariate regression to assess whether access to higher-performing schools predicts upward mobility for low-income students, cleaning and analyzing state accountability data, Census records, and outcome data from the Opportunity Atlas."
+%}
+
+{% include paper.html
+    title="Urban Development and Voting Patterns in Harris County, TX"
+    year="2026"
+    description="Examined the relationship between residential development, neighborhood change, and electoral outcomes in Harris County using precinct-level voting data and ACS census-tract estimates, identifying how urban growth patterns correlate with shifts in civic participation. Used geospatial analysis and developed original cross-walking method to transpose tract-level estimates to voter precinct-level."
+%}
+
+{% include paper.html
+    title="Majority-Black Congressional Districts and Efficacy of Black Representation: A Text Analysis"
+    year="2024"
+    external_link="https://drive.google.com/file/d/1FRGAClmENsQ9tMz6k6RQikp9cUNnROhk/view"
+    description="Analyzed vote records and text analysis from Congressional district descriptions to identify majority-Black districts and examined voting records to assess representation efficacy."
+%}
+
+{% include paper.html
+    title="Impact of Urban Development on Charter School Admissions Equity in St. Louis, MO"
+    year="2024"
+    description="Supervised by Dr. Katherine Merseth. Studied how urban development and gentrification affects charter school admissions for students in St. Louis by combining residential activity data from the Census with school enrollment records. Research informed policy recommendations on how to combat displacement of low-income students from city school district. Presented at the 2023 Harvard Business School Social Enterprise Conference."
+%}
+
+{% include paper.html
+    title="The Role of Place on Police Shootings"
+    year="2024"
+    external_link="https://github.com/gabebrock/police-shootings"
+    description="Investigated the relationship between police residence and fatal police shootings using a data science approach. It aims to discern patterns, trends, and potential biases associated with geographical proximity of police officers to the communities they police from 2015 to 2023."
+%}
+
+{% include paper.html
+    title="Watching the Watchers: A Crowdsourced Approach to Protecting the Right to Assemble in the Age of Digital Surveillance"
+    year="2023"
+    external_link="https://docs.google.com/document/d/1jGEaQVomCSm4CTSbZEWjPBOlzn2gCMaW/edit"
+    description="Developed a crowdsourced platform to monitor and document facial recognition NYPD surveillance of peaceful protests."
+%}
+
+{% include paper.html
+    title="Can AI Pass for News?: Human Inability to Classify AI Images and Media Misinformation"
+    year="2023"
+    external_link="https://drive.google.com/file/d/1OKgEvG1mWZkliathC43K4bFzR0mWXeec/view"
+    description="Conducted an experiment testing the capability of natural language programs (NLPs) to generate images for social media-focused news content. We then measured how well humans classify images in simulated interaction."
+%}
 
 <hr>
 
